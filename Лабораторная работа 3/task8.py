@@ -9,7 +9,7 @@ money_capital += delta
 while money_capital >= 0:
     month += 1
     spend *= 1 + increase
-    delta += salary - spend
+    delta = salary - spend
     money_capital += delta
 
 print(month)
